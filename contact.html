@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Styling/contact.css">
+    
+    <title>Contact Mohammad</title>
+</head>
+<body>
+    <!--Loading up the header component at the top of the page-->
+    <div id="header-component"></div>
+    <script src="./Scripts/header.js"></script>
+
+    <!--the main-container is the container that will hold everything. It's essentially a big container
+    that will hold a bunch of little container, where each little container has its own content-->
+    <main id="main-container">
+        <div id="top-text-container">
+            <h1>Get in touch</h1>
+            <p>Send me an email below</p>
+        </div>
+
+        <!--Container for the form details (first name, last name, user's email)-->
+        <div id="contact-form-container">
+            <form method="get">
+                <div id="contact-details-container">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" placeholder="First Name..." size="50" required>
+                    <label for="lname"></label>
+                    <input type="text" id="lname" placeholder="Last Name..." size="50">
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email Address..." size="50" required>
+                </div>
+                <!--End of container for the form details-->
+
+                <!--Container for the message box. I made it into a separate container because I wanted it
+                to be its own box to the right of the user's details-->
+                <div id="message-box-container">
+                    <label for="message"></label>
+                    <textarea type="text" id="message" placeholder="Type your message here..." cols="200" required></textarea>
+                </div>
+                <div class="break"></div>
+                <button type="submit" id="submit-button">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    
+
+    <!--Loading up the footer component at the bottom of the page-->
+    <div id="footer-component"></div>
+    <script src="./Scripts/footer.js"></script>
+
+    
+</body>
+</html>

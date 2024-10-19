@@ -1,0 +1,68 @@
+body{
+    background-color: azure;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-text-container{
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+/*Where you can play around with the width of the form container. If you want to adjust the 
+size of the message box, submit button's width, etc. this is where you do it*/
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 86%;
+}
+
+#contact-details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-details-container > input{
+    height: 30px;
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+form #message{
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  /*The width here depends on the size of the form element. I'm probably going to change this to a fixed size though*/
+#submit-button{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#submit-button:hover{
+    background-color: aqua;
+    opacity: 0.7;
+    cursor: pointer;
+    transition-duration: 2s;
+}

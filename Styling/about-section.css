@@ -1,0 +1,35 @@
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+}
+
+.image-container > img {
+    border: 2px solid black;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#technical-section{
+    margin-bottom: 200px;
+}
+
+#sports-section{
+    margin-bottom: 200px;
+}
+
+#sports-section > img {
+    width: 150px;
+    height: 350px;
+}

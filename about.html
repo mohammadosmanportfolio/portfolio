@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styling/about.css">
+    <title>About Mohammad Osman</title>
+</head>
+<body>
+    <!--Header component placeholder-->
+    <div id="header-component"></div>
+    <!--Loading header component ("./Components/header.html" file)-->
+    <script src="./Scripts/header.js"></script>
+
+    <!--This is the header for the about page-->
+    <div id="header-container">
+        <h1>Personal</h1>
+        <h3>More about Mohammad Osman</h3>
+    </div>
+    <hr>
+
+    <!--Going to make a couple sections about myself. I'm going to make a separate "about-section.html" component
+    file and just plug them in here. Content in this component will be dynamic.-->
+    <!--Going to use a <main> tag as a container for the multiple sections that will be rendered-->
+    <main id="main-container">
+
+    <!--First section-->
+    <div id="technical-section" class="section-component" data-title="Family" data-paragraph="This is a brief description about my family." data-image-src="../Pictures/about/1.jpg"></div>
+    <!--Second section-->
+    <div id="sports-section" class="section-component" data-title="Sports" data-paragraph="I've always been active. I box, wrestle, lift weights, run, swim, etc." data-image-src="../Pictures/about/2.png"></div>
+    <!--Third section-->
+    <div id="other-section" class="section-component" data-title="Other" data-paragraph="I've always been active. I box, wrestle, lift weights, run, swim, etc." data-image-src="../Pictures/about/3.jpg"></div>
+    <script src="./Scripts/about-section.js"></script>
+
+    </main>
+
+    <hr>
+    
+    <!--Footer component placeholder-->
+    <div id="footer-component"></div>
+    <!--Loading footer component ("./Components/footer.html" file)-->
+    <script src="./Scripts/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/static/Montserrat-Medium.ttf);
+  }
+
+*{
+    font-family: Montserrat;
+}
+
+body{
+    background-color: azure;
+}
+
+#main-container{
+    margin: 50px 0px;
+}
+
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 0px;
+    height: 200px;
+}
+
+#header-container > h1{
+    font-size: 40px;
+    margin: 0px;
+}

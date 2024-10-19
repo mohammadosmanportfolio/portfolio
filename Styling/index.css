@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/Montserrat/static/Montserrat-Medium.ttf);
+  }
+
+*{
+    font-family: Montserrat;
+}
+
+body{
+    background-color: azure;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#main-picture {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+#main-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;   
+}
+
+.main-text{
+    /* margin is used to put some spacing between the blocks of text next to the main portfolio picture*/
+    margin: 10px;
+}
+
+/* Starting work on the three circles below the picture and text blocks */
+
+#links-container{
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+}
+
+#green-contact-circle, #orange-about-circle, #aqua-blog-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    border: solid black 1px;
+}
+
+
+
+/* This is to make the text inside the circles black and bold but still a link (from the <a> tag) */
+#links-container a{
+    text-decoration: none;
+    color: black;
+}
+
+#green-contact-circle{
+    background-color: rgb(144, 234, 142);
+}
+
+#orange-about-circle{
+    background-color: orange;
+}
+
+#orange-about-circle, #green-contact-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

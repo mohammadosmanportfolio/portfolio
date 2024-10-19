@@ -1,0 +1,41 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+#right-header-side > .right-header-item{
+    text-decoration: none;
+    color: black;
+}
+
+#blue-header-circle{  
+  height: 25px;
+  width: 25px;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+#right-header-side{
+    display: flex;
+    flex-direction: row-reverse;
+    color: grey;
+    justify-content: end;
+    gap: 10px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.right-header-item{
+    text-align: right;
+}
+
+.right-vertical-line{
+    border-right: 2px solid black;
+    height: 20px;
+}
+
+#student-title {
+    color: grey;
+}

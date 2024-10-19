@@ -1,0 +1,40 @@
+.footer-component{
+    text-align: center;
+}
+
+#footer-text{
+    font-size: 8px;
+}
+
+.fa {
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+#icon-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Adding hover effect to icons*/
+
+.fa:hover {
+    transition-duration: 0.5s;
+    opacity: 0.6;
+  }
+
+/*GitHub*/
+.fa-github {
+    color: black;
+  }
+
+/*LinkedIn*/
+.fa-linkedin{
+    color: #0077B5;
+}
