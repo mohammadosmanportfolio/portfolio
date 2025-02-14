@@ -23,7 +23,7 @@
 
         <!--Container for the form details (first name, last name, user's email)-->
         <div id="contact-form-container">
-            <form method="get">
+            <form id="login-form" action="">
                 <div id="contact-details-container">
                     <label for="fname"></label>
                     <input type="text" id="fname" placeholder="First Name..." size="50" required>
@@ -43,6 +43,11 @@
                 <div class="break"></div>
                 <button type="submit" id="submit-button">Submit</button>
             </form>
+            <!--This will be the success message that displays after a message was sent-->
+            <div id="success-container">
+                <h1 id="message-success">Your message was sent successfully!!</h1>
+                <img src="./Pictures/contact/success.jpg" id="success-image"/>
+            </div>
         </div>
 
     </main>
@@ -54,4 +59,5 @@
 
     
 </body>
+<script src="./Scripts/contact.js"></script>
 </html>

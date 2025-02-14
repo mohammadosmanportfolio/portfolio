@@ -66,3 +66,18 @@ form #message{
     cursor: pointer;
     transition-duration: 2s;
 }
+
+/* Styling for the success section */
+
+#success-container{
+    display: none;
+    text-align: center;
+    color: green;
+}
+
+#success-image{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
